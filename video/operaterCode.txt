@@ -1,0 +1,25 @@
+<video style="width:37.041rem;height: 20.791rem;" id="example-video" class="video-js vjs-default-skin" controls>
+	<source
+		src="Framefile/test.m3u8"
+		type="application/x-mpegURL">
+</video>
+
+<script>
+	var player = videojs('example-video');
+	player.play();
+</script>
+
+//导入video-js.css文件设置样式
+<css>
+//去除控制面板
+.vjs-control-bar {
+	display: none !important;
+}
+//去除加载进度条			
+/*.vjs-loading-spinner {
+	 display: none !important;
+}*/
+
+</css>
+
+
